@@ -19,6 +19,7 @@
 // See Lecture 52, part 2
 	byeSpeaker.speakBye = function (name) {
   		console.log(speakWord + " " + name);
+  		document.writeln(speakWord + " " + name + "<br/>");
 	}
 
 // STEP 9: Expose the 'byeSpeaker' object to the global scope. Name it
